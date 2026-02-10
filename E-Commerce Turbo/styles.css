@@ -142,6 +142,7 @@ button:active{
 }
 .header__img--wrapper {
     padding: 20px;
+    z-index: 50;
 }
 .container{
 padding: 4px 0;
@@ -164,8 +165,12 @@ HIGHLIGHTS
 
 */
 
+#highlights {
+    position: relative;
+}
+
 #highlights:before{
-    /* background: url(assets/wave.svg);
+    background: url('assets/wave.svg');
     content: "";
     position: absolute;
     top: 1px;
@@ -176,16 +181,26 @@ HIGHLIGHTS
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1; */
+    transform: translateY(-100%);
 }
 
 #highlights:after {
-    background: url(./assets/wave.svg);
+    background: url('assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    top: 1px;
+    left: 0;
+    z-index: -1;
 }
 
 .highlight__wrapper{
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 
 .highlight {
