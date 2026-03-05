@@ -1,4 +1,4 @@
-const filmSelect = document.getElementById('film-select');
+﻿const filmSelect = document.getElementById('film-select');
 const triggerSelect = document.getElementById('trigger-select');
 const checkBtn = document.getElementById('check-btn');
 const result = document.getElementById('result');
@@ -17,7 +17,7 @@ filmSelect.addEventListener('change', () => {
   const selected = filmSelect.value;
 
   // Reset downstream UI
-  triggerSelect.innerHTML = '<option value="">-- Select a trigger --</option>';
+  triggerSelect.innerHTML = '<option value="">-- Select an event --</option>';
   triggerSelect.disabled = true;
   checkBtn.disabled = true;
   result.classList.add('hidden');
@@ -25,7 +25,7 @@ filmSelect.addEventListener('change', () => {
   resetBtn.classList.add('hidden');
 
   if (!selected) {
-    browseList.innerHTML = '<p class="muted">Select a film above to see all its trigger information.</p>';
+    browseList.innerHTML = '<p class="muted">Select a film above to see all its event information.</p>';
     return;
   }
 
@@ -72,13 +72,13 @@ checkBtn.addEventListener('click', () => {
 
 resetBtn.addEventListener('click', () => {
   filmSelect.value = '';
-  triggerSelect.innerHTML = '<option value="">-- Select a trigger --</option>';
+  triggerSelect.innerHTML = '<option value="">-- Select an event --</option>';
   triggerSelect.disabled = true;
   checkBtn.disabled = true;
   result.className = 'result hidden';
   result.textContent = '';
   resetBtn.classList.add('hidden');
-  browseList.innerHTML = '<p class="muted">Select a film above to see all its trigger information.</p>';
+  browseList.innerHTML = '<p class="muted">Select a film above to see all its event information.</p>';
 });
 
 function renderBrowseList(film, triggers) {

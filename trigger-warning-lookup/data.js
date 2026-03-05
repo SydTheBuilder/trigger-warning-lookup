@@ -5,7 +5,17 @@ const films = {
     "Does a child die?": "No",
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
-    "Is there animal cruelty?": "No"
+    "Is there animal cruelty?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "No",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "Marley & Me": {
     "Does the dog die?": "Yes",
@@ -13,7 +23,17 @@ const films = {
     "Does a child die?": "No",
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
-    "Is there animal cruelty?": "No"
+    "Is there animal cruelty?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "The Lion King (1994)": {
     "Does the dog die?": "No",
@@ -22,7 +42,17 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "Yes"
+    "Does a parent die?": "Yes",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "Yes",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "No",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "Midsommar": {
     "Does the dog die?": "No",
@@ -31,7 +61,17 @@ const films = {
     "Is there graphic violence?": "Yes",
     "Is there suicide or self-harm?": "Yes",
     "Is there animal cruelty?": "Yes",
-    "Does a parent die?": "Yes"
+    "Does a parent die?": "Yes",
+    "Are there racial slurs used?": "Yes",
+    "Are there sex scenes?": "Yes",
+    "Is there domestic violence?": "Yes",
+    "Is there drug use?": "Yes",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "A Star Is Born (2018)": {
     "Does the dog die?": "No",
@@ -40,7 +80,17 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "Yes",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "No"
+    "Does a parent die?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "Yes",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "Yes",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "Yes",
+    "Is there tobacco use?": "Yes",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "Yes",
+    "Is there heroin use?": "No"
   },
   "Hereditary": {
     "Does the dog die?": "No",
@@ -49,7 +99,17 @@ const films = {
     "Is there graphic violence?": "Yes",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "Yes"
+    "Does a parent die?": "Yes",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "Yes",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "Yes",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "Titanic": {
     "Does the dog die?": "No",
@@ -58,7 +118,17 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "No"
+    "Does a parent die?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "Yes",
+    "Is there domestic violence?": "Yes",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "Yes",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "Old Yeller": {
     "Does the dog die?": "Yes",
@@ -67,7 +137,17 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "No"
+    "Does a parent die?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "No",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "Schindlers List (1993)": {
     "Does the dog die?": "No",
@@ -76,7 +156,17 @@ const films = {
     "Is there graphic violence?": "Yes",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "Yes"
+    "Does a parent die?": "Yes",
+    "Are there racial slurs used?": "Yes",
+    "Are there sex scenes?": "Yes",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "Yes",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "The Sixth Sense (1999)": {
     "Does the dog die?": "No",
@@ -85,7 +175,17 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "No"
+    "Does a parent die?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "No",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "Good Will Hunting (1997)": {
     "Does the dog die?": "No",
@@ -94,7 +194,17 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "No"
+    "Does a parent die?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "Yes",
+    "Is there drug use?": "Yes",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "Yes",
+    "Is there tobacco use?": "Yes",
+    "Is there alcohol use?": "Yes",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   },
   "My Girl (1991)": {
     "Does the dog die?": "No",
@@ -103,6 +213,16 @@ const films = {
     "Is there graphic violence?": "No",
     "Is there suicide or self-harm?": "No",
     "Is there animal cruelty?": "No",
-    "Does a parent die?": "No"
+    "Does a parent die?": "No",
+    "Are there racial slurs used?": "No",
+    "Are there sex scenes?": "No",
+    "Is there domestic violence?": "No",
+    "Is there drug use?": "No",
+    "Is there intravenous drug use?": "No",
+    "Is there marijuana use?": "No",
+    "Is there tobacco use?": "No",
+    "Is there alcohol use?": "No",
+    "Is there cocaine use?": "No",
+    "Is there heroin use?": "No"
   }
 };
